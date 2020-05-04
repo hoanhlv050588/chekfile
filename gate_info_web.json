@@ -1,0 +1,390 @@
+{
+    "version": 1,
+    "version_app": 1,
+    "link_store": "https://taihely.club",
+    "notify_live": "Chào mừng bạn đến với cổng game HeLy.Win",
+    "api": {
+        "VQMM": {
+            "GetSpinLeftVQMM": "https://account.oneline.xyz/api/VongQuayMayMan/GetSpinLeftVQMM",
+            "GetResultSpinVQMMCap": "https://account.oneline.xyz/api/VongQuayMayMan/GetResultSpinVQMMCap",
+            "GetRankingVQMM": "https://account.oneline.xyz/Api/VongQuayMayMan/GetRankingVQMM",
+            "GetHistoryVQMM": "https://account.oneline.xyz/Api/VongQuayMayMan/GetHistoryVQMM"
+        },
+        "GetListBannerPopup": "https://account.oneline.xyz/Api/portalInfo/GetListBannerPopup",
+        "withDrawWallet": "https://thethao.oneline.xyz/api/wallet/withdraw",
+        "TransferWallet": "https://thethao.oneline.xyz/api/wallet/deposit",
+        "InfoWallet": "https://wallet.oneline.xyz/api/TransferInfo",
+        "SportWallet": "https://thethao.oneline.xyz/api/Wallet/TransferInfo",
+        "GetVinhDanhXHu": "https://account.oneline.xyz/api/PortalInfo/GetVinhDanhXHu",
+        "GetXHuByGame": "https://account.oneline.xyz/api/PortalInfo/GetXHuByGame",
+        "GetXHuAllGame": "https://account.oneline.xyz/api/PortalInfo/GetXHuAllGame",
+        "GetJackpotAndNotify": "https://account.oneline.xyz/api/PortalInfo/GetJackpotAndNotify",
+        "UsingGiftCode": "https://account.oneline.xyz/API/Account/UsingGiftCode",
+        "GetTotalUnreadInbox": "https://account.oneline.xyz/Api/Account/GetTotalUnreadInbox",
+        "GetListInbox": "https://account.oneline.xyz/Api/Account/GetListInbox",
+        "GetInboxDetail": "https://account.oneline.xyz/Api/Account/GetInboxDetail",
+        "DeleteInbox": "https://account.oneline.xyz/Api/Account/DeleteInbox",
+        "ReceiptInboxPrize": "https://account.oneline.xyz/Api/Account/ReceiptInboxPrize",
+        "GetOTPForgetPass": "https://account.oneline.xyz/Api/ProcessSecurity/ProcessGetOtpOdpGetPass",
+        "GetOTPLoggined": "https://account.oneline.xyz/Api/ProcessSecurity/ProcessGetOtpOdp",
+        "GetOTPTest": "https://account.oneline.xyz/api/Account/GenerateOtpTest",
+        "ProcessOtp": "https://account.oneline.xyz/Api/ProcessSecurity/ProcessOtp",
+        "ProcessOtpOpenAuthen": "https://account.oneline.xyz/Api/ProcessSecurity/ProcessOtpOpenAuthen",
+        "GetListSoiCau": "https://taixiu.oneline.xyz/Api/LuckyDice/GetListSoiCau",
+        "GetTopDailyWinnersTX": "https://taixiu.oneline.xyz/Api/LuckyDice/GetTopDailyWinners",
+        "GetAccountHistoryTX": "https://taixiu.oneline.xyz/Api/LuckyDice/GetAccountHistory",
+        "GetSessionDetails": "https://taixiu.oneline.xyz/Api/LuckyDice/GetSessionDetails",
+        "TranferStarToCoin": "https://account.oneline.xyz/Api/BalanceTransaction/TranferStarToCoin",
+        "GetListAvatar": "https://account.oneline.xyz/Api/Account/GetListAvatar",
+        "UpdateAvatar": "https://account.oneline.xyz/Api/Account/UpdateAvatar",
+        "Transfer": "https://account.oneline.xyz/Api/BalanceTransaction/TransferStar",
+        "GetPolicyTransfer": "https://account.oneline.xyz/Api/BalanceTransaction/GetPolicyTransfer",
+        "GetBalanceSms": "https://account.oneline.xyz/Api/Account/GetAccountFullBalanceSms",
+        "ResetPassword": "https://account.oneline.xyz/Api/Account/ResetPassword",
+        "Login": "https://account.oneline.xyz/Api/Account/LoginMobile",
+        "Logout": "https://account.oneline.xyz/Api/Account/Logout",
+        "LogoutWeb": "https://account.oneline.xyz/Api/Account/logout?continueUrl=https%3A%2F%2Fvinh.club%2F",
+        "LoginOTP": "https://account.oneline.xyz/Api/Account/LoginUserUsingOtp",
+        "FacebookLoginMobile": "https://account.oneline.xyz/Api/Account/FacebookLoginMobile",
+        "CreateAccounts": "https://account.oneline.xyz/Api/Account/QuickRegister",
+        "GetAuthenSecureInfo": "https://account.oneline.xyz/Api/AccountSecurity/GetAuthenSecureInfo",
+        "SetupAuthenSecure": "https://account.oneline.xyz/Api/AccountSecurity/SetupAuthenSecure",
+        "GetAccountInfo": "https://account.oneline.xyz/Api/Account/GetAccountInfo",
+        "GetCaptcha": "https://account.oneline.xyz/Api/Captcha/Get",
+        "GetBalanceFreeze": "https://account.oneline.xyz/Api/BalanceTransaction/GetFreezeStarInfo",
+        "AccountFreeze": "https://account.oneline.xyz/Api/BalanceTransaction/FreeStar",
+        "AccountChangePassword": "https://account.oneline.xyz/Api/Account/ChangePass",
+        "GetHistory": "https://account.oneline.xyz/Api/Account/GetAccountHistory",
+        "UpdateNickName": "https://account.oneline.xyz/Api/Account/UpdateNickName",
+        "GetListAgency": "https://account.oneline.xyz/api/Account/GetListAgency",
+        "ChangeSMSPlusMobile": "https://account.oneline.xyz/Api/AccountSecurity/ChangeSMSPlusMobile",
+        "VerifyMobileNumber": "https://account.oneline.xyz/Api/AccountSecurity/VerifyMobileNumber",
+        "ResetPhoneNumber": "https://account.oneline.xyz/Api/AccountSecurity/UnVerifyMobileNumber",
+        "GetSmsPlusMobileInfo": "https://account.oneline.xyz/Api/AccountSecurity/GetSmsPlusMobileInfo",
+        "TelcoPayment": "https://account.oneline.xyz/Api/BalanceTransaction/TopupBalanceUseCardTelco",
+        "GetBalanceOnly": "https://account.oneline.xyz/api/Account/GetAccountBalanceOnly",
+        "GetMomoData": "https://account.oneline.xyz/Api/BalanceTransaction/GetMomoData",
+        "GetCauSede": "https://xocdia.oneline.xyz/api/history/XocDiaGetResultHistory",
+        "GetTopSede": "https://xocdia.oneline.xyz/api/history/XocDiaBxhNgay",
+        "GetHistorySede": "https://xocdia.oneline.xyz/api/history/XocDiaAccountHistory",
+        "Loyal": {
+            "GetListLevels": "https://account.oneline.xyz/api/loyalty/GetListLevels",
+            "GetAccountInfo": "https://account.oneline.xyz/api/loyalty/GetAccountInfo",
+            "ExchangeVPToCoin": "https://account.oneline.xyz/api/loyalty/ExchangeVPToCoin",
+            "UserGetHistory": "https://account.oneline.xyz/api/loyalty/UserGetHistory",
+            "EventGetInfo": "https://account.oneline.xyz/api/loyalty/EventGetInfo",
+            "EventGetPrizeInfo": "https://account.oneline.xyz/api/loyalty/EventGetPrizeInfo",
+            "EventPrizeRevice": "https://account.oneline.xyz/api/loyalty/EventPrizeRevice"
+        },
+        "Event": {
+            "ExchangePrizeToStar": "https://taixiu.oneline.xyz/api/EventRongThan/ExchangePrizeToStar",
+            "GetAccountPrize": "https://taixiu.oneline.xyz/api/EventRongThan/GetAccountPrize",
+            "GetRongThanNotify": "https://taixiu.oneline.xyz/api/EventRongThan/GetRongThanNotify",
+            "GetRongThanVinhDanh": "https://taixiu.oneline.xyz/api/EventRongThan/GetRongThanVinhDanh",
+            "GetEventAlphaBxhAll": "https://taixiu.oneline.xyz/api/EventRongThan/GetEventAlphaBxhAll"
+        },
+        "Chat": {
+            "negotiate": "https://chat.oneline.xyz/signalr/negotiate",
+            "wsUrl": "wss://chat.oneline.xyz/signalr/connect",
+            "hub": "ChatHub"
+        },
+        "AccountBonus": {
+            "GetAccountBonus": "https://account.oneline.xyz/api/Account/GetAccountBonus",
+            "ReceiveBonus": "https://account.oneline.xyz/api/Account/Account_ReviceBonus"
+        },
+        "Topup": {
+            "CaptchaTelco": "https://recharge.oneline.xyz/Api/Captcha/Get",
+            "TopupBalanceByCard": "https://recharge.oneline.xyz/api/TopupByCard/TopupBalanceByCard",
+            "TopupCard_GetCardAllow": "https://recharge.oneline.xyz/api/TopupByCard/TopupCard_GetCardAllow",
+            "ByCardCreateOrder": "https://account.oneline.xyz/api/EshopWebApi/ByCardCreateOrder",
+            "EshopGetCardPrize": "https://account.oneline.xyz/api/EshopWebApi/EshopGetCardPrize",
+            "GetListTopupHistory": "https://account.oneline.xyz/api/EshopWebApi/GetListTopupHistory",
+            "GetEshopOrderDetail": "https://account.oneline.xyz/api/EshopWebApi/GetEshopOrderDetail",
+            "HistoryTopupByCard": "https://recharge.oneline.xyz/api/TopupByCard/HistoryTopupByCard"
+        },
+       "Bank": {
+            "GetBank": "https://bank.oneline.xyz/api/APIBankNN/GetBank",
+            "GetBankWalletAllow": "https://topup.oneline.xyz/Api/AutoBank/GetBankWalletAllow",
+            "GetInfoBankNN": "https://topup.oneline.xyz/Api/AutoBank/CreateBankRequest",
+            "GetInfoWallet": "https://topup.oneline.xyz/Api/AutoBank/CreateWalletRequest",
+            "GCaptcha": "https://recharge.oneline.xyz/Api/Captcha/Get",
+            "BankNNHistory": "https://bank.oneline.xyz/api/APIBankNN/BankNNHistory",
+			"BankInfoList" : "https://bank.oneline.xyz/api/bankoff/InfoBankOff"
+        },
+       "apiBomTan": {
+            "EventGetRank": "https://account.oneline.xyz/api/Event/EventGetRank",
+            "DiemDanhGetList": "https://account.oneline.xyz/api/Event/DiemDanhGetList",
+            "DiemDanh": "https://account.oneline.xyz/api/Event/DiemDanh",
+            "NhiemVuGetList": "https://account.oneline.xyz/api/Event/NhiemVuGetList",
+            "NhiemVuRevice": "https://account.oneline.xyz/api/Event/NhiemVuRevice",
+            "EventGetAccountInfo": "https://account.oneline.xyz/api/Event/EventGetAccountInfo",
+            "EventGetPrizeInfo": "https://account.oneline.xyz/api/event/EventGetPrizeInfo",
+            "EventPrizeRevice": "https://account.oneline.xyz/api/event/EventPrizeRevice",
+            "GetTimeEvent": "https://account.oneline.xyz/api/Event/GetTimeEvent",
+            "RungCayDonLoc": "https://account.oneline.xyz/api/Event/RungCayDonLoc",
+            "RungCayGetRank": "https://account.oneline.xyz/api/Event/RungCayGetRank"
+        },
+		"EventIcon": {
+			"EventIconInfoUser": "https://account.oneline.xyz/Api/EventIcon/EventIconInfoUser",
+			"EventIconGetTop": "https://account.oneline.xyz/Api/EventIcon/EventIconGetTop",
+			"EventIconGetPrizeInfo": "https://account.oneline.xyz/Api/EventIcon/EventIconGetPrizeInfo",
+			"EventIconPrizeRevice": "https://account.oneline.xyz/Api/EventIcon/EventIconPrizeRevice",
+			"EventIconInfoUserLobby": "https://account.oneline.xyz/Api/EventIcon/EventIconInfoUserLobby" 
+		}
+    },
+    "events": {
+        "openCard11": false,
+        "bannerIdNotOpen": [],
+        "ReportError": {
+            "id": 7,
+            "enabled": false
+        },
+        "X2BonusMoney": false,
+        "notify": 99,
+        "xJackpot": 9,
+        "alpha": {
+            "id": 5,
+            "enabled": true,
+            "received": false,
+            "startDate": "2019-09-22T00:00:00",
+            "endDate": "2019-09-25T23:59:59"
+        },
+        "thanhDuDay": {
+            "id": 8,
+            "enabled": true,
+            "startDate": "2018-08-01T00:00:00",
+            "endDate": "2019-11-25T23:59:59",
+            "openTab": 1
+        },
+        "huThanh": {
+            "id": 50,
+            "enabled": true,
+            "day": [4,7],
+            "gameId": 37,
+            "name": "Ngũ Hành",
+            "isX2": true
+        },
+        "sieuHuMiniPoker": {
+            "id": 51,
+            "enabled": true,
+            "day": [2,5],
+            "gameId": 19,
+            "name": "MiniPoker - Siêu Hũ Poker",
+            "isX2": true
+        },
+        "khoBauPharaoh": {
+            "id": 52,
+            "enabled": true,
+            "day": [3,6],
+            "gameId": 44,
+            "name": "Pharaoh - Truy Tìm Kho Báu",
+            "isX2": true
+        },
+        "huThanTai": {
+            "id": 53,
+            "enabled": true,
+            "day": [3,6,1],
+            "gameId": 20,
+            "name": "Kim Cương - Hũ Thần Tài",
+            "isX2": true
+        },
+        "x2Panda": {
+            "id": 54,
+            "enabled": true,
+            "day": [2,5],
+            "gameId": 45,
+            "name": "Đại Kiều",
+            "isX2": true
+        },
+        "chienBinhOdin": {
+            "id": 55,
+            "enabled": true,
+            "day": [4,7,1],
+            "gameId": 35,
+            "name": "Thủy Cung",
+            "isX2": true
+        },
+         "bomtan": {
+            "id": 6,
+            "enabled": false,
+            "countDown": false,
+            "name": "vinh - Đón xuân 2020",
+            "rankLogin": false,
+            "dateStart": "2020-01-20T00:00:00",
+            "dateEnd": "2020-02-16T23:59:59",
+            "openTab": 0,
+            "xPine": [],
+            "playDate": [
+                {"day": "T2", "date": "20/01", "value": 50}, {"day": "T3", "date": "21/01", "value": 20 }, {"day": "T4", "date": "22/01", "value": 30 }, {"day": "T5", "date": "23/01", "value": 40 },
+                {"day": "T6", "date": "24/01", "value": 50 }, {"day": "T7", "date": "25/01", "value": 80 }, {"day": "CN", "date": "26/01", "value": 100 }, {"day": "T2", "date": "27/01", "value": 50 },
+                {"day": "T3", "date": "28/01", "value": 20 }, {"day": "T4", "date": "29/01", "value": 30 }, {"day": "T5", "date": "30/01", "value": 40 }, {"day": "T6", "date": "31/01", "value": 50 },
+                {"day": "T7", "date": "01/02", "value": 80 }, {"day": "CN", "date": "02/02", "value": 100 }, {"day": "T2", "date": "03/02", "value": 50 }, {"day": "T3", "date": "04/02", "value": 20 },
+                {"day": "T4", "date": "05/02", "value": 30 }, {"day": "T5", "date": "06/02", "value": 40 }, {"day": "T6", "date": "07/02", "value": 50 }, {"day": "T7", "date": "08/02", "value": 80 },
+                {"day": "CN", "date": "09/02", "value": 100 }, {"day": "T2", "date": "10/02", "value": 50 }, {"day": "T3", "date": "11/02", "value": 20 }, {"day": "T4", "date": "12/02", "value": 30 },
+                {"day": "T5", "date": "13/02", "value": 40 }, {"day": "T6", "date": "14/02", "value": 50 }, {"day": "T7", "date": "15/02", "value": 80 }, {"day": "CN", "date": "16/02", "value": 100 }
+            ]
+        },
+		"thanRua": {
+			"id": 12,
+			"enabled": true,
+			"startDate": "2020-03-09T00:00:00",
+			"endDate": "2020-11-25T23:59:59",
+			"day": [2,5],
+			"rooms": [100, 1000],
+			"timeId": ["09h00-10h30", "12h00-13h30", "15h00-16h30", "18h00-19h30", "21h00-22h30"]
+		},
+		"thanhQuayTay": {
+			"id": 39,
+			"enabled": false,
+			"startDate": "2020-03-09T00:00:00",
+			"endDate": "2020-11-25T23:59:59",
+			"day": [],
+			"rooms": [100, 1000],
+			"timeId": ["8h00-11h00", "15h00-18h00", "20h00-23h00"]
+		},
+		"xacUop": {
+			"id": 13,
+			"enabled": true,
+			"startDate": "2020-03-09T00:00:00",
+			"endDate": "2020-11-25T23:59:59",
+			"day": [4,7],
+			"rooms": [100, 1000],
+			"timeId": ["9h00-10h30", "12h00-13h30", "15h00-16h30", "18h00-19h30", "21h00-22h30"]
+		},
+		"tienTuu": {
+			"id": 11,
+			"enabled": true,
+			"startDate": "2020-03-09T00:00:00",
+			"endDate": "2020-11-25T23:59:59",
+			"day": [1,3,6],
+			"rooms": [100, 1000],
+			"timeId": ["9h00-10h30", "12h00-13h30", "15h00-16h30", "18h00-19h30", "21h00-22h30"]
+		},
+		"longPhung": {
+            "id": 10,
+            "enabled": true,
+           "startDate": "2020-03-09T00:00:00",
+            "endDate": "2020-11-25T23:59:59",
+            "day": [1,4,6],
+            "rooms": [],
+            "timeId": ["00h00-11h59", "12h00-23h59"]
+        },
+		"dapSoMoSon": {
+                    "id": 14,
+                    "enabled": true,
+                    "name": "Đập sò mò Vinh",
+                    "startDate": "2020-04-06T00:00:00",
+                    "endDate": "2020-11-25T23:59:59",
+                    "openTab": 1,
+                    "day": [1, 2, 3, 4, 5, 6, 7],
+                    "api": {
+                        "getAccountInfo": "https://account.oneline.xyz/api/eventso/ES_GetAccountInfo",
+                        "betXoSo": "https://account.oneline.xyz/api/eventso/ES_BetXoSo?numberData=",
+                        "getResultXoSo": "https://account.oneline.xyz/api/eventso/ES_GetResultXoSo?gamesessionId=",
+                        "getRank": "https://account.oneline.xyz/api/eventso/ES_AccountPrizeRank_Get?gamesessionId=",
+                        "registerDapSo": "https://account.oneline.xyz/api/eventso/ES_DapSoRegister",
+                        "betDapSo": "https://account.oneline.xyz/api/eventso/ES_BetDapSo",
+                        "getNhiemVu": "https://account.oneline.xyz/api/eventso/NhiemVuGetList",
+                        "getPrizes": "https://account.oneline.xyz/api/eventso/ES_AccountGetPrizes",
+                        "receivePrize": "https://account.oneline.xyz/api/eventso/ES_AccountPrizeRevice",
+                        "getListSession": "https://account.oneline.xyz/api/eventso/ES_GameSession_GetList",
+                        "getRankSession": "https://account.oneline.xyz/api/eventso/ES_AccountPrizeRank_Get"
+                    }
+                }
+    },
+    "momoRate": {
+        "show": true,
+        "data": [10000, 20000, 30000, 50000, 100000, 200000, 300000, 500000, 1000000],
+        "rate": 1.1,
+		"shortNote": "<color=yellow>+10%</c>"
+    },
+    "bankRate": { "show": true, "shortNote": "<color=yellow>+15%</c>", "bonus": 15 },
+	"cardRate": {
+		"show": true,
+		"shortNote": "Tỉ lệ <color=yellow>1-0.95</c>"
+	},
+	"wallet": {
+            "show": true,
+            "shortNote": "+10%",
+            "moneyOption": [20000,50000,100000,200000,300000,400000,500000,1000000,2000000,5000000]
+        },
+    "link_otp_tele": "",
+    "showMiniGame": true,
+    "chargeOpenFirst": 6,
+    "link_store_android": "",
+    "link_store_ios": "",
+    "VIP": true,
+    "Shop": true,
+    "HotLine": {
+        "vip": 2,
+        "phone": ""
+    },
+    "GroupGame": "https://www.facebook.com/",
+	"fbAppId": "409062769584418",
+    "GiftCode": true,
+    "CASH_CHAT": 0,
+    "PHONE_CHAT_REQUIRE": {
+        "enabled": false
+    },
+    "Fanpage": "",
+    "News": "",
+    "LiveChat": "",
+    "CSKH": "",
+    "VPKD": "",
+	"TelegramNews": "",
+	"TelegramPublic": "",
+	"Youtube": "",
+	"Zalo": "",
+    "IAP": true,
+    "BadWBane": {
+        "enabled": true,
+        "badw": ["dm", "d.m", "dcm", "d.c.m", "dkm", "lon", "vl", "vcl", "vkl", "dcs", "đảng cộng sản", "dmcs", "bộ công an", "công an", "c50", "pc50", "A87", "A46", "A44",
+            "hồ chí minh", "ho chi minh", "hcm"
+        ]
+    },
+    "BadWBaneNickname": {
+        "enabled": true,
+        "badw": ["hely", "hely", "adminhely", "helyadmin", "helyvip", "viphely", "helyclub", "dmcs", "bocongan", "congan", "canhsat", "c50", "pc50", "A87", "A46", "A44", "hochiminh", "doconcho",
+            "dangcongsan", "nguyenphutrong", "dm.m", "dcmmm", "admin", "quantrivien", "quantri", "quantrl", "administrator", "admln", "adm", "daily", "luadao", "muaban", "doithe", "thecao"
+        ]
+    },
+    "featureEnable": {
+        "isShowVipPoint": true
+    },
+    "TIMECHAT": 3,
+    "isOpenEventDefault": true,
+    "isShowGateCard": true,
+    "isExchange": true,
+    "gameInBanner": [42],
+    "CHARGE": {
+        "enabled": false
+    },
+    "openPopupNotify": { "enabled": false, "urlImg": "https://rs.oneline.xyz/banner.png", "countDown": 5, "once": false },
+    "isOpenWheel": false,
+    "CHARGE_NOTE": "\n*Thông báo: Mệnh giá thẻ có thể thay đổi trong ngày.\n- Hiện tại chỉ hỗ trợ các mệnh giá sau:\nLưu ý: Nạp sai mệnh giá thẻ dưới bảng sẽ mất luôn thẻ.",
+    "MAINTAIN_CHARGE": "Hệ thống nạp thẻ đang bảo trì, vui lòng quay lại trong vài tiếng tới.",
+    "OTP": "",
+    "EXCHANGE": {
+        "enabled": false
+    },
+    "EXCHANGE_NOTE": "Hệ thống đổi thẻ đang bảo trì, vui lòng quay lại trong vài tiếng tới.",
+    "LINK_REFFER_FB": "https://www.facebook.com/v3.1/dialog/oauth?client_id=409062769584418&redirect_uri=",
+    "IS_X2NAP_BETA": {
+        "enabled": true,
+        "toast_beta": "Nhân đôi số tiền nạp với 2 lần nạp đầu tiên.\n Vui lòng quay lại khi game ra mắt"
+    },
+    "NAPDOITHE_BETA": {
+        "enabled": true,
+        "toast_beta": "Tính năng sẽ ra mắt khi chạy chính thức"
+    },
+    "TRANSFERWALLET_BETA": {
+        "enabled": true,
+        "toast_beta": "Tính năng sắp ra mắt"
+    },
+    "MAIN_WALLET_TOAST": {
+        "title": "Tài khoản hely",
+        "description": "Tài khoản hely dùng để chơi các game:\n tài xỉu, quay hũ, xóc đĩa, xổ số, game bài"
+    },
+    "VIP_LVCHAT": 7,
+	 "VIP_CHANGE_P": 3
+}

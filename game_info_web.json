@@ -1,0 +1,326 @@
+[{
+        "id": 0,
+        "version": 1,
+        "maintain": false,
+        "main": "HomeScene"
+    },
+    {
+        "id": 18,
+        "version": 1,
+        "gameType": 2,
+        "name": "Tài Xỉu",
+        "icon": {
+            "type": 1,
+            "name": "mini_18"
+        },
+        "is_biggame": false,
+        "is_jackpot": false,
+        "maintain": false,
+        "trend": "trend_hot",
+        "main": "/TaixiuG/TaiXiu",
+        "api": {
+            "negotiate": "https://taixiu.oneline.xyz/signalr/negotiate",
+            "wsUrl": "wss://taixiu.oneline.xyz/signalr/connect",
+            "hub": "MiniGameHub",
+            "soicau": "https://taixiu.oneline.xyz/Api/LuckyDice/GetListSoiCau",
+            "timeNan": 5
+        }
+    },
+    {
+        "id": 19,
+        "version": 1,
+        "gameType": 2,
+        "name": "Mini Poker",
+        "icon": {
+            "type": 1,
+            "name": "mini_19"
+        },
+        "is_biggame": false,
+        "is_jackpot": false,
+        "maintain": false,
+        "trend": "",
+        "main": "/MnPokerG/MiniPoker",
+        "api": {
+            "negotiate": "https://minipoker.oneline.xyz/signalr/negotiate",
+            "wsUrl": "wss://minipoker.oneline.xyz/signalr/connect",
+            "hub": "MiniGameHub",
+            "history": "https://minipoker.oneline.xyz/Api/MiniPoker/GetAccountHistory",
+            "honor": "https://minipoker.oneline.xyz/Api/MiniPoker/GetTopWinners"
+        }
+    },
+    {
+        "id": 20,
+        "version": 1,
+        "gameType": 2,
+        "name": "Kim Cương",
+        "icon": {
+            "type": 1,
+            "name": "mini_20"
+        },
+        "is_biggame": false,
+        "is_jackpot": false,
+        "maintain": false,
+        "trend": "",
+        "main": "/KimCuongG/KimCuong",
+        "api": {
+            "negotiate": "https://nongtrai.oneline.xyz/signalr/negotiate",
+            "wsUrl": "wss://nongtrai.oneline.xyz/signalr/connect",
+            "hub": "gamehub",
+            "history": "https://nongtrai.oneline.xyz/api/History/GetSpinHistory",
+            "honor": "https://nongtrai.oneline.xyz/api/History/GetJackpotHistory"
+        }
+    },
+    {
+        "id": 41,
+        "version": 1,
+        "gameType": 2,
+        "name": "Xoc Dia",
+        "icon": {
+            "type": 1,
+            "name": "mini_41"
+        },
+        "is_biggame": true,
+        "is_jackpot": false,
+        "maintain": false,
+        "trend": "",
+        "main": "sede",
+        "api": {
+            "negotiate": "https://xocdia.oneline.xyz/signalr/negotiate",
+            "wsUrl": "wss://xocdia.oneline.xyz/signalr/connect",
+            "hub": "XocDiaHub"
+        }
+    },
+	{
+        "id": 46,
+        "version": 1,
+        "gameType": 2,
+        "name": "Bầu cua",
+        "icon": {
+            "type": 1,
+            "name": "mini_46"
+        },
+        "is_biggame": true,
+        "is_jackpot": false,
+        "maintain": false,
+        "trend": "",
+        "main": "baucuaxoi",
+        "api": {
+            "negotiate": "https://baucua.oneline.xyz/signalr/negotiate",
+            "wsUrl": "wss://baucua.oneline.xyz/signalr/connect",
+            "hub": "BauCuaHub",
+            "soicau": "https://baucua.oneline.xyz/Api/BauCua/GetListSoiCau",
+            "top": "https://baucua.oneline.xyz/Api/BauCua/getTopDailyWinners?page=1&recordPerPage=10",
+            "detailSS": "https://baucua.oneline.xyz/Api/BauCua/GetAccountHistoryDetail",
+            "history": "https://baucua.oneline.xyz/Api/BauCua/GetAccountHistory",
+            "timeNan": 5
+        }
+    },
+	 {
+        "id": 42,
+        "version": 1,
+        "gameType": 2,
+        "name": "Xo So",
+        "icon": {
+            "type": 1,
+            "name": "mini_42"
+        },
+        "is_biggame": false,
+        "is_jackpot": false,
+        "maintain": false,
+        "trend": "",
+        "main": "/LoDe/LoDe",
+        "api": {
+            "negotiate": "https://xoso.oneline.xyz/signalr/negotiate",
+            "wsUrl": "wss://xoso.oneline.xyz/signalr/connect",
+            "hub": "Xoso",
+            "GetListBetType": "https://xoso.oneline.xyz/api/Xoso/GetListBetType",
+            "GetListBetRecent": "https://xoso.oneline.xyz/api/Xoso/GetListBetRecent",
+            "GetKetQua": "https://xoso.oneline.xyz/api/Xoso/GetKetQua",
+            "history": "https://xoso.oneline.xyz/api/Xoso/XsHistory",
+            "honor": "https://xoso.oneline.xyz/api/Xoso/GetTopWin"
+        }
+    },
+	 {
+        "id": 35,
+        "version": 1,
+        "gameType": 3,
+        "name": "PhucHung",
+        "icon": {
+            "type": 2,
+            "name": "big_35"
+        },
+        "is_biggame": true,
+        "is_jackpot": true,
+        "maintain": false,
+        "trend": "",
+        "main": "Hilap",
+        "api": {
+            "negotiate": "https://phuchung.oneline.xyz/signalr/negotiate",
+            "wsUrl": "wss://phuchung.oneline.xyz/signalr/connect",
+            "hub": "gameHub",
+            "history": "https://phuchung.oneline.xyz/Api/History/GetHistory",
+            "jackpot": "https://phuchung.oneline.xyz/Api/Statistic/GetStatistic"
+        }
+    },	
+	   {
+        "id": 45,
+        "version": 1,
+        "gameType": 3,
+        "name": "Panda",
+        "icon": {
+            "type": 2,
+            "name": "big_45"
+        },
+        "is_biggame": true,
+        "is_jackpot": true,
+        "maintain": false,
+        "trend": "",
+        "is_framegame": false,
+        "main": "Panda",
+        "api": {
+            "negotiate": "https://panda.oneline.xyz/signalr/negotiate",
+            "wsUrl": "wss://panda.oneline.xyz/signalr/connect",
+            "hub": "AladdinHub",
+            "history": "https://panda.oneline.xyz/api/history/GetHistory",
+            "bigWin": "https://panda.oneline.xyz/api/history/GetBigWin",
+            "jackpot": "https://panda.oneline.xyz/api/history/GetNoHu"
+        }
+    },
+    {
+        "id": 44,
+        "version": 1,
+        "gameType": 3,
+        "name": "Pharaoh",
+        "icon": {
+            "type": 2,
+            "name": "big_44"
+        },
+        "is_biggame": true,
+        "is_jackpot": true,
+        "maintain": false,
+        "trend": "",
+        "main": "Maya",
+        "api": {
+			
+		   "negotiate": "https://phatbao.oneline.xyz/signalr/negotiate",
+            "wsUrl": "wss://phatbao.oneline.xyz/signalr/connect",
+            "hub": "gameHub",
+            "history": "https://phatbao.oneline.xyz/Api/History/GetHistory",
+            "jackpot": "https://phatbao.oneline.xyz/Api/History/GetHistory"
+            
+        }
+    },
+   
+	 {
+        "id": 37,
+        "version": 1,
+        "gameType": 2,
+        "name": "nguhanh",
+        "icon": {
+            "type": 1,
+            "name": "mini_37"
+        },
+        "is_biggame": false,
+        "is_jackpot": false,
+        "maintain": false,
+        "trend": "",
+        "main": "/BomTanG/BomTan",
+        "api": {
+            "negotiate": "https://pikachu.oneline.xyz/signalr/negotiate",
+            "wsUrl": "wss://pikachu.oneline.xyz/signalr/connect",
+            "hub": "GameHub",
+            "history": "https://pikachu.oneline.xyz/API/VinhDanh/GetTransactionHistory",
+            "honor": "https://pikachu.oneline.xyz/API/VinhDanh/GetHonorHistory",
+            "jackpot": "https://pikachu.oneline.xyz/API/VinhDanh/GetJackpotHistory"
+        }
+    },
+   
+    
+    {
+        "id": 47,
+        "version": 1,
+        "gameType": 2,
+        "name": "LongPhung",
+        "icon": {
+            "type": 1,
+            "name": "mini_47"
+        },
+        "is_biggame": false,
+        "is_jackpot": false,
+        "maintain": false,
+        "trend": "",
+        "main": "/SaEG/thiendia",
+        "api": {
+            "negotiate": "https://thiendia.oneline.xyz/signalr/negotiate",
+            "wsUrl": "wss://thiendia.oneline.xyz/signalr/connect",
+            "hub": "GameHub",
+            "history": "https://thiendia.oneline.xyz/API/History/GetAccountHistory?top=20",
+            "detail": "https://thiendia.oneline.xyz/API/History/GetAccountHistoryDetail?turnId=",
+            "top": "https://thiendia.oneline.xyz/API/History/GetTopAccount?top=30",
+            "jackpot": "https://thiendia.oneline.xyz/API/History/GetTopJackpot?top=30"
+        }
+    },
+    {
+        "id": -1,
+        "version": 1,
+        "gameType": 4,
+        "name": "Poker",
+        "icon": {
+            "type": 1,
+            "name": "poker"
+        },
+        "is_biggame": true,
+        "is_jackpot": false,
+        "maintain": false,
+        "trend": "trend_new",
+        "main": "poker",
+        "api": {
+            "negotiate": "https://poker.oneline.xyz/signalr/negotiate",
+            "wsUrl": "wss://poker.oneline.xyz/signalr/connect",
+            "hub": "pokerHub"
+        }
+    },
+    {
+        "id": -1,
+        "version": 1,
+        "gameType": 4,
+        "name": "Tien len mien nam",
+        "icon": {
+            "type": 1,
+            "name": "tlmn"
+        },
+        "is_biggame": true,
+        "is_jackpot": false,
+        "maintain": false,
+        "trend": "trend_new",
+        "is_framegame": false,
+        "main": "TlmnSceneSolo",
+        "api": {
+            "negotiate": "https://tlmn.oneline.xyz/signalr/negotiate",
+            "wsUrl": "wss://tlmn.oneline.xyz/signalr/connect",
+            "hub": "tienlenHub"
+        }
+    }
+	,{
+        "id": -1,
+        "version": 1,
+        "gameType": 4,
+        "name": "sam loc",
+        "icon": {
+            "type": 1,
+            "name": "sam-loc"
+        },
+        "is_biggame": true,
+        "is_jackpot": false,
+        "maintain": false,
+        "trend": "trend_new",
+        "is_framegame": false,
+        "main": "samloc",
+        "api": {
+            "negotiate": "https://tlmn.oneline.xyz/signalr/negotiate",
+            "wsUrl": "wss://tlmn.oneline.xyz/signalr/connect",
+            "hub": "tienlenHub"
+        }
+    }
+
+]
